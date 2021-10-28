@@ -3,7 +3,6 @@
  - Pentru descarcare pe windows:
    - https://git-scm.com/downloads
 
-   - Dupa instalare deschideti programul Git bash
 <p align="center">
   <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/Screenshot_1.png" />
 </p>
