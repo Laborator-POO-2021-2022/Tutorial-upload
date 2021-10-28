@@ -19,32 +19,106 @@ In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 - mkdir exemplu -> creare folder cu numele exemplu
 - cd exemplu -> pentru a schimba locatia curenta si a intra in folder-ul exemplu
 
-## Pasul 1 -> stabiliti locatia unde o sa lucrati
-- Stabiliti locatia unde doriti sa lucrati(Desktop, Documents sau orice alt folder)
-- creati un folder in aceasta locatie cu ce nume vreti voi (mkdir si apoi cd in el)
-- verificati ca va aflati in interiorul folder-ului (pwd)
-
-## Pasul 2 -> crearea unui fisier si urcarea acestuia pe website-ul github
-- touch main.cpp
-- touch header.hpp
-- touch file.cpp
-- git status # pentru a observa modificarile
-- **Varianta 1**
-    - git add . # .(punct) inseamna ca adaugati toate modificarile
-- **Varianta 2**
-    - git add main.cpp # sau varianta aceasta in care adaugati fiecare fisier modificat pe rand
-- git commit -m “un mesaj scurt cu ce ati modificat”
-- git push origin prenume.nume # cu aceasta comanda trimiteti modificarile pe branch-ul vostru de pe server-ul github, pot fi vizualizate apoi si din brower
-
-Pasul 2 se repeta de cate ori e nevoie, adica de fiecare data cand vreti sa trimiteti modificarile pe care le faceti pe server.
-Nu e nevoie sa faceti asta la fiecare modificare, puteti face pasul 2 o singura data dupa ce ati terminat laboratorul.
-
-Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in imaginea de mai jos.
+## Pasul 1 -> Alegeti username-ul sau numele vostru din lista de mai jos
 <p align="center">
-  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/Screenshot_2.png" />
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul1.png" />
 </p>
 
-## Extra
+## Pasul 2.0 -> Asteptati pana cand se creeaza repository-ul apoi dati refresh la pagina
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul2.0.png" />
+</p>
+## Pasul 2.1 -> Accesati link-ul de la repository
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul2.png" />
+</p>
+
+## Pasul 3 -> La unul din pasii urmatori veti avea nevoie de link-ul din poza
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul3.png" />
+</p>
+
+## Pasul 4 -> Deschideti folder-ul de pe calculatorul vostru si dati click dreapta + Git bash here
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul4.png" />
+</p>
+
+## Pasul 5 -> Scrieti comanda: git init
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul5.png" />
+</p>
+
+## Pasul 6 -> Scrieti comanda: git remote add origin LINK(de la pasul 3)
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul6.png" />
+</p>
+
+## Pasul 7 -> Scrieti comanda: git add .
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul7.png" />
+</p>
+
+## Pasul 8 -> Scrieti comanda: git config --global user.name "Numele vostru"
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul8.png" />
+</p>
+
+## Pasul 9 -> Scrieti comanda: git config --global user.email "email cont github"
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul9.png" />
+</p>
+
+## Pasul 10 -> Scrieti comanda: git commit -m "mesaj"
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul10.png" />
+</p>
+
+## Pasul 11 -> Scrieti comanda: git push -u origin master
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul11.png" />
+</p>
+
+## Pasul 12 -> Dati un refresh la pagina din browser
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul12.png" />
+</p>
+
+## Pasul 13 -> O sa va apara fisierele pentru laborator
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pasul13.png" />
+</p>
+
+## Modificare laborator incarcat
+- Scrieti comanda: git status
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas1.png" />
+</p>
+- Ce este scris cu rosu sunt fisierele modificate
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas2.png" />
+</p>
+
+- Scrieti comanda: git add .
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas3.png" />
+</p>
+
+- Scrieti comanda: git commit -m "mesaj"
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas4.png" />
+</p>
+
+- Scrieti comanda: git push origin master
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas5.png" />
+</p>
+
+- Intoarceti-va in browser si dati un refresh la pagina, astfel o sa vedeti modificarile
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/pas6.png" />
+</p>
+
+## Extra (optional)
 
 **Cum sa adaugati cheia de ssh**
 
