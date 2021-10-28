@@ -3,14 +3,11 @@
  - Pentru descarcare pe windows:
    - https://git-scm.com/downloads
 
-<p align="center">
-  <img src="https://github.com/Laborator-POO-2021/Tutorial-upload/blob/master/Screenshot_1.png" />
-</p>
-
- - Pentru descarcare pe linux in terminal:
+ - Pentru descarcare pe linux(ubuntu) scrieti in terminal:
    - sudo apt install git
 
 ## Comenzi de baza:
+
 In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 - ls -> pentru a vedea toate fisierele si folderele din locatia curenta
 - pwd -> pentru a vedea calea absoluta din locatia curenta
